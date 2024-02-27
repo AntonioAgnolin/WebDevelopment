@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Olimpíadas</title>
+    <style>
+        body {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		table { 
+			width:700px;
+			margin:0 auto;
+			border-spacing:0;
+			border-right:1px solid #ccc;
+			border-bottom:1px solid #ccc;
+		}
+		caption {
+			font-size:130%;
+			font-weight:bold;
+			padding:5px 0;
+			background-color:#c5c5c5;
+			border:1px solid rgb(211, 211, 211);
+			border-bottom:none;
+		}
+		tr, td, th {
+			border:thin solid #bebebe;
+			border-bottom:none;
+			border-right:none;
+			padding:5px;
+		}
+		td { 
+			text-align:center;
+		}
+		th {
+			text-align:left;
+		}
+		thead th {
+			text-align:center;
+			background-color:#f0f0f0;
+        }
+		thead tr th:first-child {
+			text-align:left;
+		}
+		tfoot td {
+			font-size:.9em;
+			color:#818181;
+		}
+        .coluna1 {
+            background-color: rgb(161, 249, 255);
+        }
+        .coluna2 {
+            background-color: rgb(151, 206, 255);
+        }
+        .coluna3 {
+            background-color: rgb(162, 171, 255);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Olimpíadas da Escola 2024</caption>
+        <colgroup>
+            <col class="coluna1">
+            <col class="coluna2">
+            <col class="coluna3">
+        </colgroup>
+        <thead>
+            <tr>
+                <td>Ouro</td>
+                <td>Prata</td>
+                <td>Bronze</td>
+                <td>Total</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Thomas</td>
+                <td>7</td>
+                <td>4</td>
+                <td>2</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Luiza</td>
+                <td>6</td>
+                <td>5</td>
+                <td>5</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Matias</td>
+                <td>10</td>
+                <td>1</td>
+                <td>1</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Mariana</td>
+                <td>8</td>
+                <td>2</td>
+                <td>8</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Luca</td>
+                <td>6</td>
+                <td>8</td>
+                <td>5</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    <tfoot>
+        <tr>
+            <td>Ouro</td>
+            <td>Prata</td>
+            <td>Bronze</td>
+            <td>Total</td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
