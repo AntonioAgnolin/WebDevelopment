@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    text-align: center;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+nav ul li a:hover {
+    background-color: yellow;
+}

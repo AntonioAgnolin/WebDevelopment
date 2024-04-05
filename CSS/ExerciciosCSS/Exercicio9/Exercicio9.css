@@ -1,0 +1,25 @@
+main {
+    width: 600px;
+    background-color: aliceblue;
+    margin: 2em auto 2em;
+}
+article, aside, section, header, footer, nav {
+    display: block;
+}
+div {
+    margin-bottom: 1em;
+    width: 200px;
+    height: 100px;
+}
+.janela1 {
+    float: left;
+    background-color: yellow;
+}
+.janela2 {
+    float: left;
+    background-color: green;
+}
+.janela3 {
+    float: left;
+    background-color: blue;
+}

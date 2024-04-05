@@ -1,0 +1,23 @@
+html {
+    background-color: aliceblue;
+}
+body {
+    margin: 0;
+}
+#principal {
+    float: center;
+    width: 730px;
+    margin: 0 auto;
+    background-color: rgb(84, 51, 204);
+    padding: 10px;
+}
+.janela {
+    float: left;
+    width: 350px;
+    background: rgb(51, 99, 255);
+    padding: 5px;
+    margin-right: 5px;
+}
+p {
+    margin: 0;
+}

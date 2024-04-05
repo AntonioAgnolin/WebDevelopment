@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+ol, ul {
+    background-color: rgb(119, 109, 255);
+}
+ul {
+    list-style-type: square;
+}
+ol {
+    list-style-type: lower-alpha;
+}
+li {
+    background-color: rgb(182, 94, 255);
+}
+li:first-child {
+    color: greenyellow;
+}
+li:last-child {
+    color: red;
+}
+li:nth-child(3) {
+    color: blue;
+}
+li:nth-child(even) {
+    color: black;
+}

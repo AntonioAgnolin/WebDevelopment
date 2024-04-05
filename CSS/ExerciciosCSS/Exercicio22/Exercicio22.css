@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+nav {
+    width: 550px;
+    margin: 0 auto;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    position: relative;
+}
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border: 1px solid darkgray;
+    margin-right: 5px;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    padding-top: 5px;
+}
+nav ul li ul li a {
+    width: 80px;
+}
+nav ul li ul li a:hover {
+    background-color: rgb(65, 65, 65);
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li a:hover {
+    background-color: rgb(65, 65, 65);
+}

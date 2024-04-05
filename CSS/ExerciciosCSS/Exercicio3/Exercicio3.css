@@ -1,0 +1,11 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: darkmagenta;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: greenyellow;
+}

@@ -1,0 +1,44 @@
+main {
+    width: 100%;
+}
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+article, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+article, aside, section, header, footer, nav {
+    display: block;
+}
+.parameters {
+    float: left;
+    width: 49%;
+    margin-bottom: 50px;
+    background-color: (rgb(147, 253, 60));
+    margin-left: 1%;
+}
+.algorithms {
+    float: right;
+    width: 49%;
+    margin-bottom: 50px;
+    background-color: (rgb(60, 253, 102));
+    margin-right: 1%;
+}
+footer {
+    width: 960px;
+    background-color: azure;
+    clear: both;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 1em;
+}
+p {
+    font-size: 1.5em;
+}

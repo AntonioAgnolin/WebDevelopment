@@ -1,0 +1,50 @@
+html, body, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: aliceblue;
+}
+article, aside, section, header, footer, nav {
+    display: block; 
+}
+main {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 10px gray;
+}
+header {
+    padding: 25px;
+    background-color: rgb(253, 221, 43);
+    margin-bottom: 20px;
+}
+header h1 {
+    font-size: 1.3em;
+    color: white;
+}
+.janela1 {
+    background-color: rgb(17, 122, 221);
+    padding: 20px;
+    height: 500px;
+    width: 600px;
+    margin-bottom: 20px;
+    float: left;
+}
+.janela2 {
+    background-color: rgb(235, 20, 20);
+    padding: 20px;
+    height: 500px;
+    margin-left: 660px;
+    margin-bottom: 20px;
+}
+footer {
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    clear: both;
+}

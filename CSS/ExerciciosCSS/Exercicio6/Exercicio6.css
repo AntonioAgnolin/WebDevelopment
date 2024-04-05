@@ -1,0 +1,10 @@
+#janela {
+    position: absolute;
+    top: 50px; left: 50px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, blue, red);
+}
+h3.a {
+    text-shadow: 0 0 0.2em rgb(119, 235, 255), 0 0 0.2em rgb(121, 119, 255);
+}
